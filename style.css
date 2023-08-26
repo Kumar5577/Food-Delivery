@@ -1,0 +1,154 @@
+*{
+    margin : 0px;
+    padding: 0px;
+}
+.nav{
+    position: fixed;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    /* background-color: lightgray; */
+}
+.icons{
+    display: flex;
+    align-items: center;
+    margin-right: 20px;
+    padding: 20px;
+}
+.icons:hover{
+    cursor: pointer;
+}
+.search-bar>input{
+    border: none;
+}
+.search-bar{
+    border: 1px solid lightgray;
+    border-radius: 5px;
+    display: flex;
+    align-items: center;
+    padding: 5px;
+    margin-right: 40px;
+}
+.search-bar>img{
+    border-left: 1px solid grey;
+    padding-left: 3px;
+}
+.indicators>a{
+    text-decoration: none;
+    color: black;
+    padding: 10px;
+
+}
+.sign-in{
+    background-color: orangered;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    padding: 10px;
+}
+.sign-in:hover{
+    cursor: pointer;
+}
+.head{
+    display: flex;
+    position: static;
+    padding: 100px;
+}
+.head-1>h1{
+    font-size: 60px;
+    font-weight: 600;
+}
+.head-1>h1>strong{
+    color: orangered;
+}
+.head-1>p{
+    color: lightslategray;
+    padding: 20px;
+}
+.explore-food{
+    background-color: orangered;
+    color: white;
+    padding: 20px;
+    font-weight: 200;
+    border-radius: 15px;
+    border: none;
+}
+.cards{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    margin: auto;
+    margin: 10px;
+    padding: 10px;
+}
+.card{
+    width: 340px;
+    padding: 70px;
+    margin: 2px;
+   
+
+}
+.card:hover{
+    cursor: pointer;
+}
+.card>h1{
+    font-weight: 600;
+    font-size: 25px;
+}
+.card>p{
+    color: lightslategrey;
+}
+
+.section-2{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.section-2>h1{
+    font-size: 42px;
+    padding: 25px;
+}
+.section-2>nav{
+    border-bottom: 1px solid gray;
+}
+.section-2>nav>a{
+    color: black;
+    padding: 15px;
+    font-size: 15px;
+    text-decoration: none;
+    font-weight: 300;
+    text-transform: capitalize;
+    font-style: bold;
+}
+.card-01{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 20px;
+    justify-content: center;
+}
+.card-01>img{
+    padding: 20px;
+}
+.card-01>p{
+    padding: 20px;
+    color: lightgray;
+}
+p>strong{
+    color: orangered;
+}
+.card-01>h1{
+    padding: 15px;
+    text-transform: capitalize;
+}
+.add-to-cart{
+    color: orangered;
+    background-color: white;
+    border-color: orangered;
+    padding: 15px;
+    border-radius: 10px;
+    font-size: 15px;
+}
+
