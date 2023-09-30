@@ -8,7 +8,10 @@
     display: flex;
     align-items: center;
     justify-content: space-between;
-    /* background-color: lightgray; */
+    background-color: #F94A3D12;
+}
+.main{
+    background-color: #F94A3D12;
 }
 .icons{
     display: flex;
@@ -151,4 +154,73 @@ p>strong{
     border-radius: 10px;
     font-size: 15px;
 }
+.customers{
+    display: flex;
+    justify-content: space-between;
+    /* align-items: center; */
+    padding: 250px;
+    text-transform: capitalize;
+}
+.small-cards{
+   
+    margin-right: 100px;
+    padding: 50px;
+    
+}
+.small-card-1{
+    border-right: 3px solid sandybrown;
+    display: flex;
+    width: 100%;
+    padding: 15px;
+    margin: 10px;
+   /* flex-direction:column ; */
 
+}
+.small-card-2{
+    border-right: 3px solid lightgrey;
+    display: flex;
+    width: 100%;
+    padding: 15px;
+    margin: 10px;
+   /* flex-direction:column ; */
+
+}
+.small-card-1>div>p{
+    padding: 15px;
+
+}
+.small-card-2>div>p{
+    padding: 15px;
+
+}
+.small-card-1>div>h4{
+    padding: 10px;
+
+}
+.small-card-2>div>h4{
+    padding: 10px;
+
+}
+.small-card-1>div>img{
+    padding: 10px;
+
+}
+.small-card-2>div>img{
+    padding: 10px;
+
+}
+.review{
+    display: flex;
+    flex-direction: column;
+    margin: 70px;
+}
+.review>div>div{
+    margin: 50px;
+}
+.review>h2>strong{
+    color: orangered;
+}
+.review>div>div>p{
+    color: var(--food-delivery-p, #69697B);
+
+}
